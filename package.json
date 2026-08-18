@@ -1,0 +1,29 @@
+{
+  "name": "devops-final",
+  "version": "1.0.0",
+  "description": "Practica final DevOps CI/CD con GitHub Actions, Docker y Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yostin13jm/devops-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yostin13jm/devops-final/issues"
+  },
+  "homepage": "https://github.com/yostin13jm/devops-final#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
